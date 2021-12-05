@@ -1,0 +1,41 @@
+.Contactcard {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+  transition: all 0.3s linear;
+  min-width: 360px;
+}
+
+.Contactcard i {
+  font-size: 30px;
+  color: #fff;
+}
+
+.Contactcard p {
+  padding: 20px 0 10px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 25px;
+  margin: 0;
+}
+
+.Contactcard p a {
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  transition: color 0.3s linear;
+}
+
+.Contactcard p a:hover {
+  color: #25ca7f;
+}
+
+.Contactcard h4 {
+  color: #495057;
+  margin: 0;
+}
+
+.Contactcard:hover {
+  transform: translateY(-8px);
+  box-shadow: 1px 1px 5px #616362;
+}

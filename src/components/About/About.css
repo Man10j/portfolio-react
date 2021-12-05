@@ -1,5 +1,6 @@
 .about {
   width: 100%;
+  margin: 0 auto;
 }
 
 .about_contents {
@@ -52,6 +53,45 @@
   color: #fff;
   letter-spacing: 2px;
   margin: 0;
+}
+
+.hobby_content {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  width: 95%;
+  margin: 50px auto 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.sub_title {
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+  font-size: 26px;
+  line-height: 31px;
+  font-weight: 600;
+}
+.quote_container {
+  background-image: url(../../media/images/bg-2.jpg);
+  margin-top: 70px;
+  background-attachment: fixed;
+  text-align: center;
+  background-size: cover;
+  background-position-y: 49px;
+  background-position-x: center;
+}
+.quote_container .layout {
+  width: 100%;
+  height: inherit;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.quote_container p {
+  font-size: 30px;
+  color: #fff;
+  font-style: italic;
+  padding: 50px 0;
 }
 
 @media (max-width: 767px) {

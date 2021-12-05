@@ -1,3 +1,13 @@
 .contact {
   width: 100%;
 }
+.getintouch {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 95%;
+  margin: 70px auto 0px;
+  box-sizing: border-box;
+}

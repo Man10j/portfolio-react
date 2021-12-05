@@ -9,9 +9,9 @@ function App() {
   const [selected, setSelected] = useState("home");
   return (
     <div className="App">
-      <div className="right_wrap">
+    
         <Navbar selected={selected} setSelected={setSelected} />
-      </div>
+
       <div className="left_wrap">
         <Header />
         <About />
