@@ -1,0 +1,23 @@
+.skillcard {
+  text-align: center;
+  width: 300px;
+  background: rgba(0, 0, 0, 0.6);
+  height: 400px;
+  transition: all 0.3s linear;
+  border-radius: 5px;
+  margin: 10px;
+}
+.skill_title {
+  color: #25ca7f;
+  margin: 0;
+}
+
+.skill_pic {
+  width: 300px;
+  border-radius: 5px 5px 0px 0;
+}
+
+.skillcard:hover {
+  transform: translateY(-8px);
+  box-shadow: 1px 1px 5px #616362;
+}

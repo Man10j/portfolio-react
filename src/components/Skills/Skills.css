@@ -1,0 +1,11 @@
+.skills {
+  width: 100%;
+  margin: 0 auto;
+}
+.skillsetcards {
+  width: 95%;
+  margin: 70px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

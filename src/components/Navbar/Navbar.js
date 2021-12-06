@@ -23,9 +23,11 @@ const Navbar = ({ selected, setSelected }) => {
           <div className="right_icon">
             <i className="fas fa-university"></i>
           </div>
-          <div className="right_icon">
-            <i className="fas fa-tasks"></i>
-          </div>
+          <Link to="skills" smooth={true} duration={700}>
+            <div className="right_icon">
+              <i className="fas fa-tasks"></i>
+            </div>
+          </Link>
           <div className="right_icon">
             <i className="fas fa-briefcase"></i>
           </div>
