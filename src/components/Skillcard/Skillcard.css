@@ -6,6 +6,7 @@
   transition: all 0.3s linear;
   border-radius: 5px;
   margin: 10px;
+  overflow: hidden;
 }
 .skill_title {
   color: #25ca7f;
@@ -14,10 +15,31 @@
 
 .skill_pic {
   width: 300px;
-  border-radius: 5px 5px 0px 0;
 }
 
 .skillcard:hover {
   transform: translateY(-8px);
   box-shadow: 1px 1px 5px #616362;
+}
+.skillcard:hover .skill_desc {
+  transform: translateY(-77%);
+}
+
+.skill_title {
+  padding: 30px 0;
+}
+
+.skill_desc {
+  margin: 0;
+  transform: translateY(0%);
+  width: inherit;
+  height: inherit;
+  background: rgba(0, 0, 0, 0.8);
+  transition: transform 0.3s linear;
+}
+
+@media (max-width: 601px) {
+  .skill_desc {
+    transform: translateY(-77%);
+  }
 }

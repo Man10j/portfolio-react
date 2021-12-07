@@ -1,12 +1,14 @@
 import React from "react";
 import "./Skillcard.css";
 
-const Skillcard = ({ key, imgsrc, title, desc }) => {
+const Skillcard = ({ imgsrc, title, desc }) => {
   return (
-    <div className="skillcard" key={key}>
+    <div className="skillcard">
       <img src={imgsrc} alt={imgsrc} className="skill_pic" />
-      <h3 className="skill_title">{title}</h3>
-      <p>{desc}</p>
+      <div className="skill_desc">
+        <h3 className="skill_title">{title}</h3>
+        <p>{desc}</p>
+      </div>
     </div>
   );
 };
