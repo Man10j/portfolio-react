@@ -97,3 +97,10 @@
 .timeline_desc .highlight {
   color: #25ca7f;
 }
+
+@media (max-width: 414px) {
+  .timeline_container {
+    padding-left: 50px;
+    padding-right: 0px;
+  }
+}
