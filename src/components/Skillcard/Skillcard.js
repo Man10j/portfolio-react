@@ -7,7 +7,7 @@ const Skillcard = ({ imgsrc, title, desc }) => {
       <img src={imgsrc} alt={imgsrc} className="skill_pic" />
       <div className="skill_desc">
         <h3 className="skill_title">{title}</h3>
-        <p>{desc}</p>
+        <p className="skillset_desc">{desc}</p>
       </div>
     </div>
   );

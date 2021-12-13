@@ -13,12 +13,12 @@ const Skills = () => {
     {
       imgsrc: htmlcss,
       title: "HTML and CSS",
-      desc: "description here...",
+      desc: "With 2 years of work experience as a FED, I have the ability to develop a pixel perfect html, with user interactive functionalities and attractive transitions and animations.",
     },
     {
       imgsrc: jspic,
       title: "Javascript",
-      desc: "description here...",
+      desc: "Developing an indepth knowledge in Javascript. Learning reactJs. I have updated some of my projects in portfolio.",
     },
     {
       imgsrc: reactpic,
@@ -28,7 +28,7 @@ const Skills = () => {
     {
       imgsrc: adobepic,
       title: "Adope",
-      desc: "description here...",
+      desc: "Sufficient knowledge in converting design files of Photoshop/Indesign/Illustrator to develop them into html file. Learning to use their tools more effectively for producing pixel perfect and quality output.",
     },
   ];
   return (

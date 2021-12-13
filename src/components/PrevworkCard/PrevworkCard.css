@@ -1,0 +1,32 @@
+.prev_wrk_card {
+  width: 300px;
+  height: 350px;
+  background: rgba(250, 250, 250, 0.9);
+  border-radius: 6px;
+  text-align: center;
+  color: #000;
+  transition: background 0.3s linear;
+  margin: 20px;
+}
+.card_title {
+  color: #0e0f10;
+  margin: 20px 0px 0;
+  transition: color 0.3s linear;
+}
+.prev_wrk_card i {
+  font-size: 70px;
+  padding-top: 30px;
+  color: #25ca7f;
+  transition: color 0.3s linear;
+}
+.prev_wrk_card:hover {
+  background: #25ca7f;
+}
+
+.prev_wrk_card:hover i {
+  color: #fff;
+}
+.prev_wrk_desc{
+    padding: 0 10px;
+    font-size: 17px;
+}

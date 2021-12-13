@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
-import { Element } from "react-scroll";
+import { Element, Link } from "react-scroll";
+
 const Header = () => {
   return (
     <Element className="header" id="header">
@@ -8,7 +9,9 @@ const Header = () => {
       <div className="intro">Manoj Prabhakar</div>
       <div className="submit_btn row">
         <button type="submit">Download CV</button>
-        <button type="submit">My work</button>
+        <Link to="Portfolio" smooth={true} duration={700}>
+          <button type="submit">My work</button>
+        </Link>
       </div>
       <div className="btm_left_nav">
         <div className="left_nav leftnav_linkedin">

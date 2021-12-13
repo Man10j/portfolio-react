@@ -1,12 +1,13 @@
 .skillcard {
   text-align: center;
-  width: 300px;
+  width: 400px;
   background: rgba(0, 0, 0, 0.6);
-  height: 400px;
+  height: 300px;
   transition: all 0.3s linear;
   border-radius: 5px;
   margin: 10px;
   overflow: hidden;
+  position: relative;
 }
 .skill_title {
   color: #25ca7f;
@@ -21,12 +22,10 @@
   transform: translateY(-8px);
   box-shadow: 1px 1px 5px #616362;
 }
-.skillcard:hover .skill_desc {
-  transform: translateY(-77%);
-}
 
 .skill_title {
-  padding: 30px 0;
+  padding: 20px 0;
+  background: #000;
 }
 
 .skill_desc {
@@ -34,12 +33,18 @@
   transform: translateY(0%);
   width: inherit;
   height: inherit;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.9);
   transition: transform 0.3s linear;
+  position: absolute;
+  top: 0;
 }
-
-@media (max-width: 601px) {
+.skillset_desc {
+  font-size: 13px;
+  padding: 40px 20px;
+  font-weight: 500;
+}
+/* @media (max-width: 601px) {
   .skill_desc {
     transform: translateY(-77%);
   }
-}
+} */

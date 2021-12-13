@@ -30,9 +30,11 @@ const Navbar = ({ selected, setSelected }) => {
               <i className="fas fa-tasks"></i>
             </div>
           </Link>
-          <div className="right_icon">
-            <i className="fas fa-briefcase"></i>
-          </div>
+          <Link to="Portfolio" smooth={true} duration={700}>
+            <div className="right_icon">
+              <i className="fas fa-briefcase"></i>
+            </div>
+          </Link>
           <Link to="contact" smooth={true} duration={700}>
             <div className="right_icon">
               <i className="far fa-envelope"></i>
