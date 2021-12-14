@@ -33,7 +33,7 @@
   transform: translateY(0%);
   width: inherit;
   height: inherit;
-  background: rgba(49, 36, 36, 0.7);
+  background: rgba(0, 0, 0, 0.7);
   transition: transform 0.3s linear;
   position: absolute;
   top: 0;

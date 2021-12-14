@@ -6,7 +6,8 @@ const Header = () => {
   return (
     <Element className="header" id="header">
       <div className="home_layout"></div>
-      <div className="intro">Manoj Prabhakar</div>
+      <h1 className="intro">Manoj Prabhakar</h1>
+      <h2 className="intro_desc">FED with 2.5 Years Experience</h2>
       <div className="submit_btn row">
         <button type="submit">Download CV</button>
         <Link to="Portfolio" smooth={true} duration={700}>

@@ -24,6 +24,17 @@
   font-weight: 600;
   line-height: 84px;
   color: #fff;
+  margin: 0;
+}
+.intro_desc {
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  color: #25ca7f;
 }
 a {
   outline: 0;
@@ -70,7 +81,7 @@ button {
 }
 .submit_btn {
   position: relative;
-  top: 57%;
+  top: 61%;
   z-index: 10;
   justify-content: center;
   display: flex;
@@ -93,7 +104,7 @@ button {
     line-height: 50px;
   }
   .submit_btn {
-    top: 56%;
+    top: 65%;
   }
   .button {
     font-size: 14px;

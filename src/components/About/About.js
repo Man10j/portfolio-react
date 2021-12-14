@@ -39,14 +39,10 @@ const About = () => {
             &nbsp;Chennai, India
           </div>
           <p>
-            Hi, The Name's MANOJ PRABHAKAR.C, Working in Hogarth as a Front End
-            Devoloper.Born and brought up in Sivakasi,Tamilnadu.
-            <span className="about_quote">
-              "Logical way of seeing everything is the sane way to see anything"
-            </span>
-            ,i'm trying to keep see that way.Having wisdom and Ideas to keep
-            stay on my path and to reach my destiny as well as meet my all
-            desires on the way.
+            Hi, I'm a Front End Developer in Hogarth WorldWide, with 2.5 years
+            of skill as a professional FED, i have acuquired the knowledge and
+            skills necessary to develop a successful project and aspired to
+            learn new things.
           </p>
         </div>
       </div>

@@ -13,17 +13,17 @@ const Skills = () => {
     {
       imgsrc: htmlcss,
       title: "HTML and CSS",
-      desc: "With 2 years of work experience as a FED, I have the ability to develop a pixel perfect html, with user interactive functionalities and attractive transitions and animations.",
+      desc: "I have the ability to develop a pixel perfect html, with user interactive functionalities and attractive transitions and animations.",
     },
     {
       imgsrc: jspic,
       title: "Javascript",
-      desc: "Developing an indepth knowledge in Javascript. Learning reactJs. I have updated some of my projects in portfolio.",
+      desc: "I have an indepth knowledge in Javascript and following up the new releases in JS, i have explored many concepts in modern Javascript.",
     },
     {
       imgsrc: reactpic,
       title: "React",
-      desc: "description here...",
+      desc: "Since i have worked on different frameworks it was easier for me to get started with React JS and i have sufficient knowledge in that framework to develop an application. I have also updated some of my work in porfolio.",
     },
     {
       imgsrc: adobepic,
