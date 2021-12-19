@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import { Element, Link } from "react-scroll";
+import cv from "../../media/pdfs/Manoj_Prabhakar_FED_CV.pdf";
 
 const Header = () => {
   return (
@@ -9,7 +10,7 @@ const Header = () => {
       <h1 className="intro">Manoj Prabhakar</h1>
       <h2 className="intro_desc">FED with 2.5 Years Experience</h2>
       <div className="submit_btn row">
-        <button type="submit">Download CV</button>
+        <button type="submit"><a href={cv} download="Manoj_Prabhakar_FED_CV">Download CV</a></button>
         <Link to="Portfolio" smooth={true} duration={700}>
           <button type="submit">My work</button>
         </Link>
