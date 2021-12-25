@@ -2,6 +2,8 @@ import React from "react";
 import "./Portfolio.css";
 import ComponentTitle from "../ComponentTitle/ComponentTitle";
 import PrevworkCard from "../PrevworkCard/PrevworkCard";
+import PortfolioCard from "../PortfolioCard/PortfolioCard";
+
 
 import { Element } from "react-scroll";
 
@@ -22,6 +24,13 @@ const Portfolio = () => {
             desc="Responsive website with dynamic data management and user interactive functionalities"
           />
         </div>
+        <h2 className="sub_title">Some of my work</h2>
+        <div className="prevwrk_cards">
+          <PortfolioCard/>
+          <PortfolioCard/>
+          <PortfolioCard/>
+        </div>
+      
       </div>
     </Element>
   );
