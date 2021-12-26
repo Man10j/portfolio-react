@@ -13,16 +13,30 @@ const Portfolio = () => {
     {
       wrkimg_src: portfolio_pic1,
       wrk_title: "Movie Search App",
-      wrk_lib: "React",
-      wrk_desc: "lorem",
+      wrk_lib: (
+        <span>
+          React <span className="prev_wrk_divider">|</span> React router{" "}
+          <span className="prev_wrk_divider">|</span> React redux{" "}
+          <span className="prev_wrk_divider">|</span> Moviedp API
+        </span>
+      ),
+      wrk_desc:
+        "By the help of the Movie API, this application can fetch details of the movie you wish to watch and also you can add it into the wishlist.",
       git_link: "https://github.com/Man10j/movie-search-react",
       deployed_link: "https://moviesearch-react-man10j.netlify.app/",
     },
     {
       wrkimg_src: portfolio_pic2,
       wrk_title: "Covid tracker",
-      wrk_lib: "React",
-      wrk_desc: "lorem",
+      wrk_lib: (
+        <span>
+          React <span className="prev_wrk_divider">|</span> React Chart{" "}
+          <span className="prev_wrk_divider">|</span> Material-UI{" "}
+          <span className="prev_wrk_divider">|</span> Covid19 tracker API
+        </span>
+      ),
+      wrk_desc:
+        "This application helps to track the covoid cases around the world and show it as a graphical representation.",
       git_link: "https://github.com/Man10j/corona-tracker-react",
       deployed_link: "https://covidtracker-react.netlify.app/",
     },

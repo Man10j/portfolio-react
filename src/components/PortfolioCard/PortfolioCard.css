@@ -17,6 +17,7 @@
 }
 .portfoliocard_head {
   color: #25ca7f;
+  margin: 15px 0 7px;
 }
 
 .wrkimg_portfolio {
@@ -34,13 +35,15 @@
 }
 
 .portfolio_lib {
-  margin: 0.5rem 0;
+  margin: 0px 0 10px;
   color: #fff;
+  font-size: 14px;
 }
 
 .portfolio_desc {
-  margin: 0.5rem 0;
+  margin: 0px 0 10px;
   color: #fff;
+  font-size: 15px;
 }
 
 .workcard_portfolio::before {
@@ -81,4 +84,7 @@
 }
 .portfolio_icon i {
   padding-right: 10px;
+}
+.prev_wrk_divider {
+  color: #25ca7f;
 }
