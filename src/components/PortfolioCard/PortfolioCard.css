@@ -47,7 +47,7 @@
 }
 
 .workcard_portfolio::before {
-  position: fixed;
+  position: absolute;
   content: "";
   box-shadow: 0 0 100px 40px #25ca7f;
   top: -10%;
@@ -56,6 +56,7 @@
   height: 60rem;
   transition: 0.7s all;
 }
+
 .workcard_portfolio:hover {
   border: 1px solid #ffffff44;
   box-shadow: 0 7px 50px 10px #000000aa;
