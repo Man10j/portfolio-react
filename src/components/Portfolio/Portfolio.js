@@ -23,7 +23,7 @@ const Portfolio = () => {
       wrk_desc:
         "By the help of the Movie API, this application can fetch details of the movie you wish to watch and also you can add it into the wishlist.",
       git_link: "https://github.com/Man10j/movie-search-react",
-      deployed_link: "https://moviesearch-react-man10j.netlify.app/",
+      deployed_link: "https://moviesearchreact.web.app/",
     },
     {
       wrkimg_src: portfolio_pic2,
