@@ -27,7 +27,7 @@ const Skills = () => {
     },
     {
       imgsrc: adobepic,
-      title: "Adope",
+      title: "Adobe",
       desc: "Sufficient knowledge in converting design files of Photoshop/Indesign/Illustrator to develop them into html file. Learning to use their tools more effectively for producing pixel perfect and quality output.",
     },
   ];

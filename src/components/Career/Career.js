@@ -23,7 +23,7 @@ const Career = () => {
             <p className="timeline_desc">
               Completed My Under Graduation with firstclass.
             </p>
-            <h2 className="timeline_perc">69%</h2>
+            <h2 className="timeline_perc">6.9 CGPA</h2>
           </div>
         </div>
 
